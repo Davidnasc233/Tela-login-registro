@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Comm</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-box active" id="login-form">
+            <form action="">
+                <h2>e-Comm</h2>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit" name="login">Entrar</button>
+                <p>Não tem uma conta? <a href="#" onclick="showForm('register-form')">Cadastre-se</a></p>
+            </form>
+        </div>
+
+        <div class="form-box" id="register-form">
+            <form action="">
+                <h2>Cadastre-se</h2>
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit" name="register">Cadastre-se</button>
+                <p>Já possui uma conta? <a href="#" onclick="showForm('login-form')">Entrar</a></p>
+            </form>
+        </div>
+    </div>
+
+        <script src="./script.js"></script>
+</body>
+</html>
