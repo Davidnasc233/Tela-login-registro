@@ -1,0 +1,155 @@
+/* Reset e base
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  Cabeçalho
+  header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  Navegação
+  nav {
+    background-color: rgb(0, 255, 157);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  Container principal
+  .container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  Barra lateral
+  aside {
+    background-color: rgb(188, 143, 186);
+    flex: 1 1 250px;
+    padding: 20px;
+    color: white;
+  }
+  
+  Conteúdo principal
+  main {
+    background-color: lightblue;
+    flex: 3 1 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  article {
+    background-color: cyan;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  figure {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  section {
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  Rodapé
+  footer {
+    background-color: violet;
+    text-align: center;
+    padding: 15px;
+    color: white;
+  } */
+
+  .width-height {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #123;
+  }
+
+  .padding-example {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #123;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+  }
+  
+  .margin-example {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #123;
+    margin: 30px;
+  }
+
+  .complete-box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #123;
+    padding: 50px 100px;
+    margin: 10px 20px 30px 40px;
+  }
+
+  .flex-container {
+    display: flex;
+    border: 2px solid #000;
+    padding: 10px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flex-item {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    flex: 1;
+
+  }
